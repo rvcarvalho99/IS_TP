@@ -4,7 +4,7 @@ import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface EHRRepository extends MongoRepository<EHR,Long> {
+public interface EHR_VERSIONED_STATUS extends MongoRepository<Versioned_Status,String> {
 
 
 }
