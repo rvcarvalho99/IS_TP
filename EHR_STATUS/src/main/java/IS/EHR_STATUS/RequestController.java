@@ -1,23 +1,21 @@
 package IS.EHR_STATUS;
 
 import com.google.gson.Gson;
+import com.mongodb.client.MongoClient;
 import org.springframework.web.bind.annotation.*;
+
 
 import java.util.List;
 
 @RestController
 public class RequestController {
 
-
-
-
+    public EHRRepository ehrrepo;
     @GetMapping("/getInfo")
-    public String getInfo(@RequestParam String Arroz) {
+    public List<EHR> getInfo() {
 
-        DB_Access dba = new DB_Access();
 
-        dba.get_EHR_Id_Status("1");
-        return dba.get_EHR_Id_Status("1");
+        return ehrrepo.findAll();
     }
 
 
