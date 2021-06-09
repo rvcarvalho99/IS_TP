@@ -1,0 +1,33 @@
+{"id_access":
+  {
+    "worker": "60c0c7caf3bdaa4e482a56ac",
+    "ehr": "60c0d94ef3bdaa4e482a56c9",
+    "access": 3
+  }
+}
+
+{"id_access":
+  {
+    "worker": "60c0c7caf3bdaa4e482a56ad",
+    "ehr": "60c0d94ef3bdaa4e482a56c9",
+    "access": 2
+  }
+}
+
+
+{"id_access":
+  {
+    "worker": "60c0c7caf3bdaa4e482a56ae",
+    "ehr": "60c0d94ef3bdaa4e482a56c9",
+    "access": 1
+  }
+}
+
+
+{"id_access":
+  {
+    "worker": "60c0c7caf3bdaa4e482a56af",
+    "ehr": "60c0d94ef3bdaa4e482a56c9",
+    "access": 0
+  }
+}

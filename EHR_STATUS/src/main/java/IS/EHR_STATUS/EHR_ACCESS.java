@@ -7,6 +7,6 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface EHR_ACCESS extends MongoRepository<Access,String> {
 
-    public Access findByid_worker(@Param("id_worker") String id_worker);
+    Access findByWorkerAndEhr(@Param("worker") String worker, @Param("ehr") String ehr);
 
 }

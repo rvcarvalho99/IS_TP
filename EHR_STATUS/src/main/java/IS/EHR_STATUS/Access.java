@@ -9,9 +9,9 @@ public class Access {
 
         @Id
         private String _id;
-        private String id_worker;
-        private String id_ehr;
-        private int access;
+        private String worker;
+        private String ehr;
+        private String access;
 
         public Access(){
             super();
@@ -25,27 +25,27 @@ public class Access {
         this._id = _id;
     }
 
-    public String getId_worker() {
-        return id_worker;
+    public String getWorker() {
+        return worker;
     }
 
-    public void setId_worker(String id_worker) {
-        this.id_worker = id_worker;
+    public void setWorker(String worker) {
+        this.worker = worker;
     }
 
-    public String getId_ehr() {
-        return id_ehr;
+    public String getEhr() {
+        return ehr;
     }
 
-    public void setId_ehr(String id_ehr) {
-        this.id_ehr = id_ehr;
+    public void setEhr(String ehr) {
+        this.ehr = ehr;
     }
 
-    public int getAccess() {
+    public String getAccess() {
         return access;
     }
 
-    public void setAccess(int access) {
+    public void setAccess(String access) {
         this.access = access;
     }
 }

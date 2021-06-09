@@ -1,0 +1,79 @@
+{"id_versioned_status":
+  {
+    "_type": "VERSIONED_EHR_STATUS",
+    "uid": {
+      "value": "60c0d94ef3bdaa4e482a56c9"
+    },
+    "owner_id": {
+      "id": {
+        "_type": "HIER_OBJECT_ID",
+        "value": "60c0d8baf3bdaa4e482a56c4"
+      },
+      "namespace": "local",
+      "type": "EHR"
+    },
+    "time_created": {
+      "value": "2021-06-02T09:55Z"
+    }
+  }
+}
+
+{"id_versioned_status":
+  {
+    "_type": "VERSIONED_EHR_STATUS",
+    "uid": {
+      "value": "60c0d94ef3bdaa4e482a56ca"
+    },
+    "owner_id": {
+      "id": {
+        "_type": "HIER_OBJECT_ID",
+        "value": "60c0d8baf3bdaa4e482a56c5"
+      },
+      "namespace": "local",
+      "type": "EHR"
+    },
+    "time_created": {
+      "value": "2021-06-07T19:35Z"
+    }
+  }
+}
+
+{"id_versioned_status":
+  {
+    "_type": "VERSIONED_EHR_STATUS",
+    "uid": {
+      "value": "60c0d94ef3bdaa4e482a56cb"
+    },
+    "owner_id": {
+      "id": {
+        "_type": "HIER_OBJECT_ID",
+        "value": "60c0d8baf3bdaa4e482a56c6"
+      },
+      "namespace": "local",
+      "type": "EHR"
+    },
+    "time_created": {
+      "value": "2021-06-08T20:30Z"
+    }
+  }
+}
+
+{"id_versioned_status":
+  {
+    "_type": "VERSIONED_EHR_STATUS",
+    "uid": {
+      "value": "60c0d94ef3bdaa4e482a56c9"
+    },
+    "owner_id": {
+      "id": {
+        "_type": "HIER_OBJECT_ID",
+        "value": "60c0d8baf3bdaa4e482a56c4"
+      },
+      "namespace": "local",
+      "type": "EHR"
+    },
+    "time_created": {
+      "value": "2021-06-09T15:15Z"
+    }
+  }
+}

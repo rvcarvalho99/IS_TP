@@ -1,0 +1,49 @@
+{"id_status":
+  {
+    "name": "fragment1",
+    "archetype_node_id": 1,
+    "ehr_subject": "Joao Maria",
+    "is_modifiable": true,
+    "id_queryable": true
+  }
+}
+
+{"id_status":
+  {
+    "name": "fragment1",
+    "archetype_node_id": 1,
+    "ehr_subject": "Antonio Maria",
+    "is_modifiable": true,
+    "id_queryable": true
+  }
+}
+
+{"id_status":
+  {
+    "name": "fragment1",
+    "archetype_node_id": 1,
+    "ehr_subject": "Carlos Pires",
+    "is_modifiable": false,
+    "id_queryable": true
+  }
+}
+
+{"id_status":
+  {
+    "name": "fragment1",
+    "archetype_node_id": 1,
+    "ehr_subject": "Helder Maria",
+    "is_modifiable": true,
+    "id_queryable": false
+  }
+}
+
+{"id_status":
+  {
+    "name": "fragment1",
+    "archetype_node_id": 1,
+    "ehr_subject": "Maria Joao",
+    "is_modifiable": false,
+    "id_queryable": false
+  }
+}

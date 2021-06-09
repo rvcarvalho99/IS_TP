@@ -1,13 +1,16 @@
 package IS.EHR_STATUS;
 
 import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
+@Document(collection = "versioned_status")
 public class Versioned_Status {
 
     @Id
     private String _id;
-    private String owner_id;
-    private String time_created;
+    private Uid uid;
+    private String ownerid;
+    private String timecreated;
 
     public Versioned_Status(){
         super();
@@ -21,19 +24,27 @@ public class Versioned_Status {
         this._id = _id;
     }
 
-    public String getOwner_id() {
-        return owner_id;
+    public Uid getUid() {
+        return uid;
     }
 
-    public void setOwner_id(String owner_id) {
-        this.owner_id = owner_id;
+    public void setUid(Uid uid) {
+        this.uid = uid;
     }
 
-    public String getTime_created() {
-        return time_created;
+    public String getOwner() {
+        return ownerid;
     }
 
-    public void setTime_created(String time_created) {
-        this.time_created = time_created;
+    public void setOwner(String owner) {
+        this.ownerid = owner;
+    }
+
+    public String getTimecreated() {
+        return timecreated;
+    }
+
+    public void setTime_created(String timecreated) {
+        this.timecreated = timecreated;
     }
 }
