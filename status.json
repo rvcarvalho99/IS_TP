@@ -1,49 +1,173 @@
-{"id_status":
+{ "id_status":
   {
-    "name": "fragment1",
-    "archetype_node_id": 1,
-    "ehr_subject": "Joao Maria",
+    "_type": "EHR_STATUS",
+    "archetype_node_id": "openEHR-EHR-EHR_STATUS.generic.v1",
+    "name": {
+      "value": "EHR Status"
+    },
+    "uid": {
+      "_type": "OBJECT_VERSION_ID",
+      "value": "8849182c-82ad-4088-a07f-48ead4180515::openEHRSys.example.com::2"
+    },
+    "subject": {
+      "external_ref": {
+        "id": {
+          "_type": "HIER_OBJECT_ID",
+          "value": "60c0d94ef3bdaa4e482a56c9"
+        },
+        "namespace": "DEMOGRAPHIC",
+        "type": "PERSON"
+      }
+    },
+    "other_details": {
+      "_type": "ITEM_TREE",
+      "archetype_node_id": "at0001",
+      "name": {
+        "value": "Details"
+      },
+      "items": []
+    },
     "is_modifiable": true,
-    "id_queryable": true
+    "is_queryable": true
   }
 }
 
-{"id_status":
+
+{ "id_status":
   {
-    "name": "fragment1",
-    "archetype_node_id": 1,
-    "ehr_subject": "Antonio Maria",
+    "_type": "EHR_STATUS",
+    "archetype_node_id": "openEHR-EHR-EHR_STATUS.generic.v1",
+    "name": {
+      "value": "EHR Status"
+    },
+    "uid": {
+      "_type": "OBJECT_VERSION_ID",
+      "value": "8849182c-82ad-4088-a07f-48ead4180515::openEHRSys.example.com::2"
+    },
+    "subject": {
+      "external_ref": {
+        "id": {
+          "_type": "HIER_OBJECT_ID",
+          "value": "60c0d94ef3bdaa4e482a56ca"
+        },
+        "namespace": "DEMOGRAPHIC",
+        "type": "PERSON"
+      }
+    },
+    "other_details": {
+      "_type": "ITEM_TREE",
+      "archetype_node_id": "at0001",
+      "name": {
+        "value": "Details"
+      },
+      "items": []
+    },
     "is_modifiable": true,
-    "id_queryable": true
+    "is_queryable": true
   }
 }
 
-{"id_status":
-  {
-    "name": "fragment1",
-    "archetype_node_id": 1,
-    "ehr_subject": "Carlos Pires",
-    "is_modifiable": false,
-    "id_queryable": true
-  }
-}
 
-{"id_status":
+{ "id_status":
   {
-    "name": "fragment1",
-    "archetype_node_id": 1,
-    "ehr_subject": "Helder Maria",
+    "_type": "EHR_STATUS",
+    "archetype_node_id": "openEHR-EHR-EHR_STATUS.generic.v1",
+    "name": {
+      "value": "EHR Status"
+    },
+    "uid": {
+      "_type": "OBJECT_VERSION_ID",
+      "value": "8849182c-82ad-4088-a07f-48ead4180515::openEHRSys.example.com::2"
+    },
+    "subject": {
+      "external_ref": {
+        "id": {
+          "_type": "HIER_OBJECT_ID",
+          "value": "60c0d94ef3bdaa4e482a56cb"
+        },
+        "namespace": "DEMOGRAPHIC",
+        "type": "PERSON"
+      }
+    },
+    "other_details": {
+      "_type": "ITEM_TREE",
+      "archetype_node_id": "at0001",
+      "name": {
+        "value": "Details"
+      },
+      "items": []
+    },
     "is_modifiable": true,
-    "id_queryable": false
+    "is_queryable": true
   }
 }
 
-{"id_status":
+
+{ "id_status":
   {
-    "name": "fragment1",
-    "archetype_node_id": 1,
-    "ehr_subject": "Maria Joao",
-    "is_modifiable": false,
-    "id_queryable": false
+    "_type": "EHR_STATUS",
+    "archetype_node_id": "openEHR-EHR-EHR_STATUS.generic.v1",
+    "name": {
+      "value": "EHR Status"
+    },
+    "uid": {
+      "_type": "OBJECT_VERSION_ID",
+      "value": "8849182c-82ad-4088-a07f-48ead4180515::openEHRSys.example.com::2"
+    },
+    "subject": {
+      "external_ref": {
+        "id": {
+          "_type": "HIER_OBJECT_ID",
+          "value": "60c0d94ef3bdaa4e482a56cc"
+        },
+        "namespace": "DEMOGRAPHIC",
+        "type": "PERSON"
+      }
+    },
+    "other_details": {
+      "_type": "ITEM_TREE",
+      "archetype_node_id": "at0001",
+      "name": {
+        "value": "Details"
+      },
+      "items": []
+    },
+    "is_modifiable": true,
+    "is_queryable": true
+  }
+}
+
+
+{ "id_status":
+  {
+    "_type": "EHR_STATUS",
+    "archetype_node_id": "openEHR-EHR-EHR_STATUS.generic.v1",
+    "name": {
+      "value": "EHR Status"
+    },
+    "uid": {
+      "_type": "OBJECT_VERSION_ID",
+      "value": "8849182c-82ad-4088-a07f-48ead4180515::openEHRSys.example.com::2"
+    },
+    "subject": {
+      "external_ref": {
+        "id": {
+          "_type": "HIER_OBJECT_ID",
+          "value": "60c0d94ef3bdaa4e482a56cd"
+        },
+        "namespace": "DEMOGRAPHIC",
+        "type": "PERSON"
+      }
+    },
+    "other_details": {
+      "_type": "ITEM_TREE",
+      "archetype_node_id": "at0001",
+      "name": {
+        "value": "Details"
+      },
+      "items": []
+    },
+    "is_modifiable": true,
+    "is_queryable": true
   }
 }

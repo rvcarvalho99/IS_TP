@@ -1,0 +1,298 @@
+[{
+  "_id": {
+    "$oid": "60c1ed5c046e5a2534590613"
+  },
+  "_type": "EHR_STATUS",
+  "archetype_node_id": "openEHR-EHR-EHR_STATUS.generic.v1",
+  "name": {
+    "value": "EHR Status"
+  },
+  "uid": {
+    "_type": "OBJECT_VERSION_ID",
+    "value": "8849182c-82ad-4088-a07f-48ead4180515::openEHRSys.example.com::2"
+  },
+  "subject": {
+    "external_ref": {
+      "id": {
+        "_type": "HIER_OBJECT_ID",
+        "value": "60c0d94ef3bdaa4e482a56c9"
+      },
+      "namespace": "DEMOGRAPHIC",
+      "type": "PERSON"
+    }
+  },
+  "other_details": {
+    "_type": "ITEM_TREE",
+    "archetype_node_id": "at0001",
+    "name": {
+      "value": "Details"
+    },
+    "items": []
+  },
+  "is_modifiable": true,
+  "is_queryable": true
+},{
+  "_id": {
+    "$oid": "60c1ed5c046e5a2534590614"
+  },
+  "_type": "EHR_STATUS",
+  "archetype_node_id": "openEHR-EHR-EHR_STATUS.generic.v2",
+  "name": {
+    "value": "EHR Status"
+  },
+  "uid": {
+    "_type": "OBJECT_VERSION_ID",
+    "value": "8849182c-82ad-4088-a07f-48ead4180515::openEHRSys.example.com::2"
+  },
+  "subject": {
+    "external_ref": {
+      "id": {
+        "_type": "HIER_OBJECT_ID",
+        "value": "60c0d94ef3bdaa4e482a56ca"
+      },
+      "namespace": "DEMOGRAPHIC",
+      "type": "PERSON"
+    }
+  },
+  "other_details": {
+    "_type": "ITEM_TREE",
+    "archetype_node_id": "at0001",
+    "name": {
+      "value": "Details"
+    },
+    "items": []
+  },
+  "is_modifiable": false,
+  "is_queryable": true
+},{
+  "_id": {
+    "$oid": "60c1ed5c046e5a2534590615"
+  },
+  "_type": "EHR_STATUS",
+  "archetype_node_id": "openEHR-EHR-EHR_STATUS.generic.v3",
+  "name": {
+    "value": "EHR Status"
+  },
+  "uid": {
+    "_type": "OBJECT_VERSION_ID",
+    "value": "8849182c-82ad-4088-a07f-48ead4180515::openEHRSys.example.com::2"
+  },
+  "subject": {
+    "external_ref": {
+      "id": {
+        "_type": "HIER_OBJECT_ID",
+        "value": "60c0d94ef3bdaa4e482a56cb"
+      },
+      "namespace": "DEMOGRAPHIC",
+      "type": "PERSON"
+    }
+  },
+  "other_details": {
+    "_type": "ITEM_TREE",
+    "archetype_node_id": "at0001",
+    "name": {
+      "value": "Details"
+    },
+    "items": []
+  },
+  "is_modifiable": true,
+  "is_queryable": false
+},{
+  "_id": {
+    "$oid": "60c1ed5c046e5a2534590616"
+  },
+  "_type": "EHR_STATUS",
+  "archetype_node_id": "openEHR-EHR-EHR_STATUS.generic.v4",
+  "name": {
+    "value": "EHR Status"
+  },
+  "uid": {
+    "_type": "OBJECT_VERSION_ID",
+    "value": "8849182c-82ad-4088-a07f-48ead4180515::openEHRSys.example.com::2"
+  },
+  "subject": {
+    "external_ref": {
+      "id": {
+        "_type": "HIER_OBJECT_ID",
+        "value": "60c0d94ef3bdaa4e482a56cc"
+      },
+      "namespace": "DEMOGRAPHIC",
+      "type": "PERSON"
+    }
+  },
+  "other_details": {
+    "_type": "ITEM_TREE",
+    "archetype_node_id": "at0001",
+    "name": {
+      "value": "Details"
+    },
+    "items": []
+  },
+  "is_modifiable": false,
+  "is_queryable": false
+},{
+  "_id": {
+    "$oid": "60c231b187a4a31723fed5c9"
+  },
+  "_type": "EHR_STATUS",
+  "archetype_node_id": "openEHR-EHR-EHR_STATUS.generic.v1",
+  "name": {
+    "value": "EHR Status"
+  },
+  "uid": {
+    "_type": "OBJECT_VERSION_ID",
+    "value": "8849182c-82ad-4088-a07f-48ead4180515::openEHRSys.example.com::2"
+  },
+  "subject": {
+    "external_ref": {
+      "id": {
+        "_type": "HIER_OBJECT_ID",
+        "value": "60c0d94ef3bdaa4e482a56c9"
+      },
+      "namespace": "DEMOGRAPHIC",
+      "type": "PERSON"
+    }
+  },
+  "other_details": {
+    "_type": "ITEM_TREE",
+    "archetype_node_id": "at0001",
+    "name": {
+      "value": "Details"
+    },
+    "items": []
+  },
+  "is_modifiable": true,
+  "is_queryable": true
+},{
+  "_id": {
+    "$oid": "60c232449dfd0a0b7bf95fb4"
+  },
+  "_type": "EHR_STATUS",
+  "archetype_node_id": "openEHR-EHR-EHR_STATUS.generic.v1",
+  "name": {
+    "value": "EHR Status"
+  },
+  "uid": {
+    "_type": "OBJECT_VERSION_ID",
+    "value": "8849182c-82ad-4088-a07f-48ead4180515::openEHRSys.example.com::2"
+  },
+  "subject": {
+    "external_ref": {
+      "id": {
+        "_type": "HIER_OBJECT_ID",
+        "value": "60c0d94ef3bdaa4e482a56c9"
+      },
+      "namespace": "DEMOGRAPHIC",
+      "type": "PERSON"
+    }
+  },
+  "other_details": {
+    "_type": "ITEM_TREE",
+    "archetype_node_id": "at0001",
+    "name": {
+      "value": "Details"
+    },
+    "items": []
+  },
+  "is_modifiable": true,
+  "is_queryable": true
+},{
+  "_id": {
+    "$oid": "60c23342b3b9cf3fd5ded9a8"
+  },
+  "_type": "EHR_STATUS",
+  "archetype_node_id": "openEHR-EHR-EHR_STATUS.generic.v1",
+  "name": {
+    "value": "EHR Status"
+  },
+  "uid": {
+    "_type": "OBJECT_VERSION_ID",
+    "value": "8849182c-82ad-4088-a07f-48ead4180515::openEHRSys.example.com::2"
+  },
+  "subject": {
+    "external_ref": {
+      "id": {
+        "_type": "HIER_OBJECT_ID",
+        "value": "60c0d94ef3bdaa4e482a56c9"
+      },
+      "namespace": "DEMOGRAPHIC",
+      "type": "PERSON"
+    }
+  },
+  "other_details": {
+    "_type": "ITEM_TREE",
+    "archetype_node_id": "at0001",
+    "name": {
+      "value": "Details"
+    },
+    "items": []
+  },
+  "is_modifiable": true,
+  "is_queryable": true
+},{
+  "_id": {
+    "$oid": "60c23528a9dc7807b3209608"
+  },
+  "_type": "EHR_STATUS",
+  "archetype_node_id": "openEHR-EHR-EHR_STATUS.generic.v1",
+  "name": {
+    "value": "EHR Status"
+  },
+  "uid": {
+    "_type": "OBJECT_VERSION_ID",
+    "value": "8849182c-82ad-4088-a07f-48ead4180515::openEHRSys.example.com::2"
+  },
+  "subject": {
+    "external_ref": {
+      "id": {
+        "_type": "HIER_OBJECT_ID",
+        "value": "60c0d94ef3bdaa4e482a56c9"
+      },
+      "namespace": "DEMOGRAPHIC",
+      "type": "PERSON"
+    }
+  },
+  "other_details": {
+    "_type": "ITEM_TREE",
+    "archetype_node_id": "at0001",
+    "name": {
+      "value": "Details"
+    },
+    "items": []
+  },
+  "is_modifiable": true,
+  "is_queryable": true
+},{
+  "_id": {
+    "$oid": "60c23543a9dc7807b320960a"
+  },
+  "_type": "EHR_STATUS",
+  "archetype_node_id": "openEHR-EHR-EHR_STATUS.generic.v1",
+  "name": {
+    "value": "EHR Status"
+  },
+  "uid": {
+    "_type": "OBJECT_VERSION_ID",
+    "value": "8849182c-82ad-4088-a07f-48ead4180515::openEHRSys.example.com::2"
+  },
+  "subject": {
+    "external_ref": {
+      "id": {
+        "_type": "HIER_OBJECT_ID",
+        "value": "60c0d94ef3bdaa4e482a56c9"
+      },
+      "namespace": "DEMOGRAPHIC",
+      "type": "PERSON"
+    }
+  },
+  "other_details": {
+    "_type": "ITEM_TREE",
+    "archetype_node_id": "at0001",
+    "name": {
+      "value": "Details"
+    },
+    "items": []
+  },
+  "is_modifiable": true,
+  "is_queryable": true
+}]

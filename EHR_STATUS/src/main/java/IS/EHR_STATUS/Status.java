@@ -8,9 +8,11 @@ public class Status {
 
     @Id
     private String _id;
-    private String name;
+    private String _type;
     private String archetype_node_id;
-    private String ehr_subject;
+    private ObjectValue name;
+    private TypeValue uid;
+    private ExternalRef subject;
     private String is_modifiable;
     private String is_queryable;
 
@@ -26,12 +28,20 @@ public class Status {
         this._id = _id;
     }
 
-    public String getName() {
+    public ObjectValue getName() {
         return name;
     }
 
-    public void setName(String name) {
+    public void setName(ObjectValue name) {
         this.name = name;
+    }
+
+    public String get_type() {
+        return _type;
+    }
+
+    public void set_type(String _type) {
+        this._type = _type;
     }
 
     public String getArchetype_node_id() {
@@ -42,12 +52,20 @@ public class Status {
         this.archetype_node_id = archetype_node_id;
     }
 
-    public String getEhr_subject() {
-        return ehr_subject;
+    public TypeValue getUid() {
+        return uid;
     }
 
-    public void setEhr_subject(String ehr_subject) {
-        this.ehr_subject = ehr_subject;
+    public void setUid(TypeValue uid) {
+        this.uid = uid;
+    }
+
+    public ExternalRef getSubject() {
+        return subject;
+    }
+
+    public void setSubject(ExternalRef subject) {
+        this.subject = subject;
     }
 
     public String getIs_modifiable() {

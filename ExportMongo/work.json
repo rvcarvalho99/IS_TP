@@ -1,0 +1,55 @@
+[{
+  "_id": {
+    "$oid": "60c0c7caf3bdaa4e482a56ac"
+  },
+  "work": "Medico",
+  "name": "Joao"
+},{
+  "_id": {
+    "$oid": "60c0c7caf3bdaa4e482a56ad"
+  },
+  "work": "Medico",
+  "name": "Jose"
+},{
+  "_id": {
+    "$oid": "60c0c7caf3bdaa4e482a56ae"
+  },
+  "work": "Medico",
+  "name": "Ricardo"
+},{
+  "_id": {
+    "$oid": "60c0c7caf3bdaa4e482a56af"
+  },
+  "work": "Funcionario",
+  "name": "Andre"
+},{
+  "_id": {
+    "$oid": "60c0c7caf3bdaa4e482a56b0"
+  },
+  "work": "Funcionario",
+  "name": "Pedro"
+},{
+  "_id": {
+    "$oid": "60c0c7caf3bdaa4e482a56b1"
+  },
+  "work": "Funcionario",
+  "name": "Miguel"
+},{
+  "_id": {
+    "$oid": "60c0c7caf3bdaa4e482a56b2"
+  },
+  "work": "Auxiliar",
+  "name": "Nelson"
+},{
+  "_id": {
+    "$oid": "60c0c7caf3bdaa4e482a56b3"
+  },
+  "work": "Auxiliar",
+  "name": "Antonio"
+},{
+  "_id": {
+    "$oid": "60c0c7caf3bdaa4e482a56b4"
+  },
+  "work": "Auxiliar",
+  "name": "Carlos"
+}]

@@ -1,0 +1,29 @@
+[{
+  "_id": {
+    "$oid": "60c0dd3ff3bdaa4e482a56d2"
+  },
+  "id_ehr": "60c0c7caf3bdaa4e482a56ac",
+  "id_access": "60c0d16bf3bdaa4e482a56bb",
+  "date_access": "2021-06-01T19:55Z"
+},{
+  "_id": {
+    "$oid": "60c0dd3ff3bdaa4e482a56d3"
+  },
+  "id_ehr": "60c0c7caf3bdaa4e482a56ac",
+  "id_access": "60c0d16bf3bdaa4e482a56bd",
+  "date_access": "2021-06-04T09:15Z"
+},{
+  "_id": {
+    "$oid": "60c0dd3ff3bdaa4e482a56d4"
+  },
+  "id_ehr": "60c0c7caf3bdaa4e482a56ac",
+  "id_access": "60c0d16bf3bdaa4e482a56be",
+  "date_access": "2021-06-05T20:05Z"
+},{
+  "_id": {
+    "$oid": "60c0dd3ff3bdaa4e482a56d5"
+  },
+  "id_ehr": "60c0c7caf3bdaa4e482a56ac",
+  "id_access": "60c0d16bf3bdaa4e482a56bb",
+  "date_access": "2021-06-09T15:35Z"
+}]

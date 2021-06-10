@@ -1,0 +1,27 @@
+[{
+  "_id": {
+    "$oid": "60c1f361046e5a2534590618"
+  },
+  "id_status": "60c231b187a4a31723fed5ca",
+  "ehr_subject": "Joao Maria",
+  "_class": "IS.EHR_STATUS.EHR"
+},{
+  "_id": {
+    "$oid": "60c1f361046e5a2534590619"
+  },
+  "id_status": "60c23543a9dc7807b320960b",
+  "ehr_subject": "Antonio Maria",
+  "_class": "IS.EHR_STATUS.EHR"
+},{
+  "_id": {
+    "$oid": "60c1f361046e5a253459061a"
+  },
+  "id_status": "60c1f9be046e5a253459061f",
+  "ehr_subject": "Carlos Pires"
+},{
+  "_id": {
+    "$oid": "60c1f361046e5a253459061b"
+  },
+  "id_status": "60c1f9be046e5a2534590620",
+  "ehr_subject": "Helder Maria"
+}]

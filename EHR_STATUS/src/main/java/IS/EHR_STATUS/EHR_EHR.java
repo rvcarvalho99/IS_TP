@@ -8,4 +8,6 @@ import org.springframework.stereotype.Repository;
 public interface EHR_EHR extends MongoRepository<EHR,String> {
 
     EHR findBy_id(@Param("id") String id);
+
+
 }

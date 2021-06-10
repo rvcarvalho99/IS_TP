@@ -1,0 +1,186 @@
+[{
+  "_id": {
+    "$oid": "60c1f9be046e5a253459061d"
+  },
+  "_type": "VERSIONED_EHR_STATUS",
+  "uid": {
+    "value": "60c1f361046e5a2534590618"
+  },
+  "timecreated": {
+    "value": "2021-06-02T09:55Z"
+  },
+  "statusid": {
+    "id": {
+      "_type": "HIER_OBJECT_ID",
+      "value": "60c1ed5c046e5a2534590613"
+    },
+    "namespace": "local",
+    "type": "EHR"
+  },
+  "commiter": "joao"
+},{
+  "_id": {
+    "$oid": "60c1f9be046e5a253459061e"
+  },
+  "_type": "VERSIONED_EHR_STATUS",
+  "uid": {
+    "value": "60c1f361046e5a2534590619"
+  },
+  "timecreated": {
+    "value": "2021-06-07T19:35Z"
+  },
+  "statusid": {
+    "id": {
+      "_type": "HIER_OBJECT_ID",
+      "value": "60c1ed5c046e5a2534590614"
+    },
+    "namespace": "local",
+    "type": "EHR"
+  },
+  "commiter": "ze"
+},{
+  "_id": {
+    "$oid": "60c1f9be046e5a253459061f"
+  },
+  "_type": "VERSIONED_EHR_STATUS",
+  "uid": {
+    "value": "60c1f361046e5a253459061a"
+  },
+  "timecreated": {
+    "value": "2021-06-08T20:30Z"
+  },
+  "statusid": {
+    "id": {
+      "_type": "HIER_OBJECT_ID",
+      "value": "60c1ed5c046e5a2534590615"
+    },
+    "namespace": "local",
+    "type": "EHR"
+  },
+  "commiter": "manel"
+},{
+  "_id": {
+    "$oid": "60c1f9be046e5a2534590620"
+  },
+  "_type": "VERSIONED_EHR_STATUS",
+  "uid": {
+    "value": "60c1f361046e5a253459061b"
+  },
+  "timecreated": {
+    "value": "2021-06-09T15:15Z"
+  },
+  "statusid": {
+    "id": {
+      "_type": "HIER_OBJECT_ID",
+      "value": "60c1ed5c046e5a2534590616"
+    },
+    "namespace": "local",
+    "type": "EHR"
+  },
+  "commiter": "antonio"
+},{
+  "_id": {
+    "$oid": "60c231b187a4a31723fed5ca"
+  },
+  "_type": "VERSIONED_EHR_STATUS",
+  "uid": {
+    "value": "60c1f361046e5a2534590618"
+  },
+  "statusid": {
+    "id": {
+      "_type": "HIER_OBJECT_ID",
+      "value": "60c231b187a4a31723fed5c9"
+    },
+    "namespace": "local",
+    "type": "EHR"
+  },
+  "timecreated": {
+    "value": "2021-06-161T16:06Z"
+  },
+  "commiter": "ze",
+  "_class": "IS.EHR_STATUS.Versioned_Status"
+},{
+  "_id": {
+    "$oid": "60c232449dfd0a0b7bf95fb5"
+  },
+  "_type": "VERSIONED_EHR_STATUS",
+  "uid": {
+    "value": "60c1f361046e5a2534590619"
+  },
+  "statusid": {
+    "id": {
+      "_type": "HIER_OBJECT_ID",
+      "value": "60c232449dfd0a0b7bf95fb4"
+    },
+    "namespace": "local",
+    "type": "EHR"
+  },
+  "timecreated": {
+    "value": "2021-06-161T16:06Z"
+  },
+  "commiter": "ze",
+  "_class": "IS.EHR_STATUS.Versioned_Status"
+},{
+  "_id": {
+    "$oid": "60c23342b3b9cf3fd5ded9a9"
+  },
+  "_type": "VERSIONED_EHR_STATUS",
+  "uid": {
+    "value": "60c1f361046e5a2534590619"
+  },
+  "statusid": {
+    "id": {
+      "_type": "HIER_OBJECT_ID",
+      "value": "60c23342b3b9cf3fd5ded9a8"
+    },
+    "namespace": "local",
+    "type": "EHR"
+  },
+  "timecreated": {
+    "value": "2021-06-161T16:06Z"
+  },
+  "commiter": "ze",
+  "_class": "IS.EHR_STATUS.Versioned_Status"
+},{
+  "_id": {
+    "$oid": "60c23528a9dc7807b3209609"
+  },
+  "_type": "VERSIONED_EHR_STATUS",
+  "uid": {
+    "value": "60c1f361046e5a2534590619"
+  },
+  "statusid": {
+    "id": {
+      "_type": "HIER_OBJECT_ID",
+      "value": "60c23528a9dc7807b3209608"
+    },
+    "namespace": "local",
+    "type": "EHR"
+  },
+  "timecreated": {
+    "value": "2021-06-161T16:06Z"
+  },
+  "commiter": "ze",
+  "_class": "IS.EHR_STATUS.Versioned_Status"
+},{
+  "_id": {
+    "$oid": "60c23543a9dc7807b320960b"
+  },
+  "_type": "VERSIONED_EHR_STATUS",
+  "uid": {
+    "value": "60c1f361046e5a2534590619"
+  },
+  "statusid": {
+    "id": {
+      "_type": "HIER_OBJECT_ID",
+      "value": "60c23543a9dc7807b320960a"
+    },
+    "namespace": "local",
+    "type": "EHR"
+  },
+  "timecreated": {
+    "value": "2021-06-161T16:06Z"
+  },
+  "commiter": "ze",
+  "_class": "IS.EHR_STATUS.Versioned_Status"
+}]

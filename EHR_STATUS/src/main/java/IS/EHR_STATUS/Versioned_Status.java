@@ -2,15 +2,20 @@ package IS.EHR_STATUS;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.data.mongodb.core.mapping.Field;
 
 @Document(collection = "versioned_status")
 public class Versioned_Status {
 
     @Id
     private String _id;
-    private Uid uid;
-    private String ownerid;
-    private String timecreated;
+    private String _type;
+    private ObjectValue uid;
+    @Field("statusid")
+    private TypeValueId statusid;
+    @Field("timecreated")
+    private ObjectValue timecreated;
+    private String commiter;
 
     public Versioned_Status(){
         super();
@@ -24,27 +29,43 @@ public class Versioned_Status {
         this._id = _id;
     }
 
-    public Uid getUid() {
+    public String get_type() {
+        return _type;
+    }
+
+    public void set_type(String _type) {
+        this._type = _type;
+    }
+
+    public ObjectValue getUid() {
         return uid;
     }
 
-    public void setUid(Uid uid) {
+    public void setUid(ObjectValue uid) {
         this.uid = uid;
     }
 
-    public String getOwner() {
-        return ownerid;
+    public TypeValueId getStatusid() {
+        return statusid;
     }
 
-    public void setOwner(String owner) {
-        this.ownerid = owner;
+    public void setStatusid(TypeValueId statusid) {
+        this.statusid = statusid;
     }
 
-    public String getTimecreated() {
+    public ObjectValue getTimecreated() {
         return timecreated;
     }
 
-    public void setTime_created(String timecreated) {
+    public void setTimecreated(ObjectValue timecreated) {
         this.timecreated = timecreated;
+    }
+
+    public String getCommiter() {
+        return commiter;
+    }
+
+    public void setCommiter(String commiter) {
+        this.commiter = commiter;
     }
 }
